@@ -100,6 +100,14 @@
     margin: 4px 3px;
     border-radius: 23px;
     background-color:white;
+    transition:1s ease-in-out;
+}
+
+.box:hover{
+border: none !important;
+box-shadow: 4px 8px 15px 10px rgb(233, 226, 226);
+transform: scale(1.06);
+z-index: 3;
 }
 
 #services .box img{
